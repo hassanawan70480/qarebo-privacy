@@ -1,92 +1,84 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Qarebo Privacy Policy</title>
 <style>
-  :root {
-    --bg: #ffffff;
-    --text: #1a1a1a;
-    --muted: #5a5a5a;
-    --accent: #1e7d32;
-    --border: #e2e6e2;
-  }
-  @media (prefers-color-scheme: dark) {
-    :root {
-      --bg: #10140f;
-      --text: #eef2ee;
-      --muted: #a3ada2;
-      --accent: #4cae5b;
-      --border: #263029;
-    }
-  }
-  * { box-sizing: border-box; }
-  body {
-    margin: 0;
-    background: var(--bg);
-    color: var(--text);
-    font-family: -apple-system, "Segoe UI", Roboto, "Noto Nastaliq Urdu", sans-serif;
-    line-height: 1.65;
-  }
-  .wrap { max-width: 720px; margin: 0 auto; padding: 32px 20px 60px; }
-  header { text-align: center; margin-bottom: 28px; padding-bottom: 20px; border-bottom: 2px solid var(--accent); }
-  .logo { font-size: 28px; font-weight: 800; color: var(--accent); letter-spacing: 0.5px; }
-  header p { color: var(--muted); margin: 6px 0 0; font-size: 14px; }
-  h2 { font-size: 17px; color: var(--accent); margin-top: 32px; margin-bottom: 8px; border-left: 4px solid var(--accent); padding-left: 10px; }
-  p, li { font-size: 15px; color: var(--text); }
-  .ur { direction: rtl; text-align: right; font-family: "Noto Nastaliq Urdu", "Jameel Noori Nastaleeq", serif; }
-  .en { direction: ltr; text-align: left; color: var(--muted); font-size: 14px; margin-top: 4px; }
-  .card { background: rgba(30,125,50,0.06); border: 1px solid var(--border); border-radius: 12px; padding: 16px 18px; margin-bottom: 6px; }
-  .contact { margin-top: 36px; text-align: center; padding: 20px; border-radius: 12px; background: rgba(30,125,50,0.1); }
-  .contact a { color: var(--accent); font-weight: 600; text-decoration: none; }
-  footer { text-align: center; color: var(--muted); font-size: 12px; margin-top: 40px; }
+  body{font-family:system-ui,-apple-system,Segoe UI,Roboto,"Noto Nastaliq Urdu","Noto Naskh Arabic",sans-serif;background:#f4faf6;color:#1d2b22;margin:0;line-height:1.7}
+  .wrap{max-width:760px;margin:0 auto;padding:24px 18px 48px}
+  h1{color:#0c6434;margin:8px 0 4px;font-size:28px}
+  .sub{color:#4b5d52;margin-bottom:22px}
+  .card{background:#fff;border:1px solid #d6eadc;border-radius:14px;padding:16px 18px;margin:14px 0}
+  h2{color:#0c6434;font-size:18px;margin:0 0 8px}
+  .ur{direction:rtl;text-align:right;font-size:17px;line-height:2;margin:0 0 8px}
+  .en{direction:ltr;text-align:left;font-size:15px;color:#33443a;margin:0}
+  a{color:#0c6434}
 </style>
 </head>
 <body>
 <div class="wrap">
-  <header>
-    <div class="logo">Qarebo</div>
-    <p>Privacy Policy &nbsp;•&nbsp; رازداری کی پالیسی</p>
-    <p style="font-size:12px;">Last updated: September 2026</p>
-  </header>
+  <h1>Qarebo</h1>
+  <div class="sub">Privacy Policy &bull; رازداری کی پالیسی<br>Last updated: October 2026</div>
 
-  <section class="card">
-    <div class="ur"><strong>Qarebo</strong> ایک مقامی سروسز اور رابطہ ڈائریکٹری ایپ ہے۔ ہم آپ کی پرائیویسی کا خیال رکھتے ہیں، اس لیے یہ پالیسی سادہ الفاظ میں بتاتی ہے کہ ہم کیا معلومات استعمال کرتے ہیں۔</div>
-    <div class="en">Qarebo is a hyperlocal services &amp; contacts directory app. We care about your privacy, so this policy explains — in plain terms — what information we use.</div>
-  </section>
-
-  <h2>مقام (Location)</h2>
-  <div class="ur">آپ کی اجازت سے، Qarebo آپ کا موجودہ مقام حاصل کرتا ہے تاکہ آپ کا علاقہ خودکار طور پر معلوم کیا جا سکے۔</div>
-  <div class="en">With your permission, Qarebo accesses your device location only to help auto-detect your area (province, district, tehsil, village/muhalla). You can always select your area manually instead.</div>
-
-  <h2>علاقہ کا ڈیٹا (Area Storage)</h2>
-  <div class="ur">آپ کا منتخب کردہ علاقہ صرف آپ کے فون میں محفوظ ہوتا ہے — یہ کسی سرور پر نہیں بھیجا جاتا۔</div>
-  <div class="en">Your selected area is stored locally on your device only. It is not uploaded to any server tied to your identity.</div>
-
-  <h2>ڈائریکٹری ڈیٹا (Directory Data)</h2>
-  <div class="ur">پلمبر، الیکٹریشن، ڈاکٹر وغیرہ جیسی خدمات کی فہرست ہمارے Supabase ڈیٹابیس سے حاصل کی جاتی ہے۔ یہ عوامی معلومات ہیں (کاروباروں کے نام اور فون نمبرز) جو کوئی بھی استعمال کر سکتا ہے۔</div>
-  <div class="en">Listings for services like plumbers, electricians, doctors, etc. are fetched from our Supabase database. This is public business information (names, phone numbers) intended to be used by anyone browsing the app.</div>
-
-  <h2>اکاؤنٹ / لاگ اِن (Account / Login)</h2>
-  <div class="ur">فی الحال Qarebo میں کوئی لاگ اِن یا اکاؤنٹ سسٹم نہیں ہے۔ آپ بغیر کسی رجسٹریشن کے ایپ استعمال کر سکتے ہیں۔</div>
-  <div class="en">Qarebo currently has no login or account system. You can use the app without registering.</div>
-
-  <h2>اشتہارات (Ads)</h2>
-  <div class="ur">Qarebo میں فی الحال کوئی اشتہارات نہیں دکھائے جاتے۔</div>
-  <div class="en">Qarebo does not currently show any advertisements.</div>
-
-  <h2>محفوظ شدہ فہرست (Saved / Bookmarks)</h2>
-  <div class="ur">آپ کی محفوظ کردہ (Meri List) اندراجات صرف آپ کے فون میں مقامی طور پر رکھی جاتی ہیں۔</div>
-  <div class="en">Your bookmarked/saved listings ("Meri List") are stored locally on your device only.</div>
-
-  <div class="contact">
-    <div class="ur">سوالات کے لیے رابطہ کریں</div>
-    <div class="en" style="margin-top:4px;">Questions? Contact us:</div>
-    <p style="margin:10px 0 0;"><a href="mailto:hassan.awan70480@gmail.com">hassan.awan70480@gmail.com</a></p>
+  <div class="card">
+    <p class="ur">Qarebo ایک مقامی سروسز اور رابطہ ڈائریکٹری ایپ ہے۔ یہ پالیسی سادہ الفاظ میں بتاتی ہے کہ ہم کون سی معلومات استعمال کرتے ہیں اور کہاں بھیجتے ہیں۔</p>
+    <p class="en">Qarebo is a hyperlocal services and contacts directory app. This policy explains in plain terms what information we use and where it goes.</p>
   </div>
 
-  <footer>© 2026 Qarebo. Sialkot, Punjab, Pakistan.</footer>
+  <div class="card">
+    <h2>مقام / Location</h2>
+    <p class="ur">آپ کی اجازت سے، Qarebo آپ کا موجودہ مقام (GPS) حاصل کرتا ہے تاکہ آپ کا علاقہ پہچانا جا سکے اور قریب ترین سروس فراہم کرنے والے دکھائے جا سکیں۔ قریبی فہرست نکالنے کے لیے آپ کا مقام ہمارے سرور (Supabase) کو بھیجا جاتا ہے۔ ہم اسے آپ کی شناخت سے نہیں جوڑتے اور اسے اشتہارات کے لیے استعمال نہیں کرتے۔ آپ مقام کی اجازت نہ دیں تو علاقہ خود بھی چن سکتے ہیں۔</p>
+    <p class="en">With your permission, Qarebo reads your device location (GPS) to detect your area and show the nearest service providers. To work out nearby listings, your coordinates are sent to our server (Supabase). We do not link them to your identity and do not use them for advertising. If you deny permission, you can choose your area manually.</p>
+  </div>
+
+  <div class="card">
+    <h2>اپنا کام شامل کروائیں / Add Your Work (business request)</h2>
+    <p class="ur">اگر آپ "Apna Kaam Add Karwayein" فارم بھیجتے ہیں تو آپ کا نام، کام کی قسم، فون نمبر، WhatsApp نمبر (اگر دیا ہو)، تحصیل اور کام کی جگہ کا مقام ہمارے سرور پر محفوظ ہوتا ہے۔ ہم پہلے اسے جانچتے ہیں۔ منظور ہونے پر آپ کا نام، کام کی قسم اور رابطہ نمبر (Call اور WhatsApp بٹن کے ذریعے) ایپ استعمال کرنے والے سب لوگوں کو نظر آئیں گے، اور مقام صرف فاصلہ دکھانے کے لیے استعمال ہوگا۔ یہ فارم بھیجنا مکمل طور پر اختیاری ہے۔</p>
+    <p class="en">If you submit the "Apna Kaam Add Karwayein" form, your name, work category, phone number, WhatsApp number (if given), tehsil and the location of your workplace are saved on our server and reviewed by us first. If approved, your name, category and contact number (via the Call and WhatsApp buttons) become visible to everyone using the app, and the location is used only to show distance. Submitting this form is entirely optional.</p>
+  </div>
+
+  <div class="card">
+    <h2>ہٹوانے کی درخواست / Removal</h2>
+    <p class="ur">اگر آپ اپنی فہرست یا اپنی بھیجی ہوئی معلومات ہٹوانا چاہتے ہیں تو نیچے دیے گئے ای میل پر لکھیں، ہم اسے ہٹا دیں گے۔</p>
+    <p class="en">If you want your listing or the information you submitted removed, email us at the address below and we will remove it.</p>
+  </div>
+
+  <div class="card">
+    <h2>آپ کے فون میں محفوظ / Stored on your device</h2>
+    <p class="ur">آپ کا منتخب کردہ علاقہ اور "Meri List" (محفوظ کردہ اندراجات) صرف آپ کے فون میں رکھے جاتے ہیں۔</p>
+    <p class="en">Your selected area and your saved listings ("Meri List") are stored only on your device.</p>
+  </div>
+
+  <div class="card">
+    <h2>ڈائریکٹری ڈیٹا / Directory data</h2>
+    <p class="ur">سروسز کی فہرست ہمارے Supabase ڈیٹابیس سے حاصل کی جاتی ہے۔ تمام ڈیٹا محفوظ (HTTPS) کنکشن پر منتقل ہوتا ہے۔ ہم آپ کی معلومات کسی کو بیچتے یا اشتہاری کمپنیوں سے شیئر نہیں کرتے۔ Supabase صرف ہمارا ڈیٹا ہوسٹ کرنے والی سروس ہے۔</p>
+    <p class="en">Listings are loaded from our Supabase database. All data travels over secure (HTTPS) connections. We do not sell your information or share it with advertisers. Supabase acts only as our hosting provider.</p>
+  </div>
+
+  <div class="card">
+    <h2>اکاؤنٹ اور اشتہارات / Accounts and ads</h2>
+    <p class="ur">Qarebo میں فی الحال کوئی لاگ اِن، اکاؤنٹ یا اشتہار نہیں ہے۔</p>
+    <p class="en">Qarebo currently has no login, no accounts and no advertisements.</p>
+  </div>
+
+  <div class="card">
+    <h2>بچے / Children</h2>
+    <p class="ur">یہ ایپ 18 سال اور اس سے زیادہ عمر کے لوگوں کے لیے ہے۔ ہم جان بوجھ کر بچوں کی معلومات جمع نہیں کرتے۔</p>
+    <p class="en">This app is intended for users aged 18 and over. We do not knowingly collect information from children.</p>
+  </div>
+
+  <div class="card">
+    <h2>تبدیلیاں / Changes</h2>
+    <p class="ur">اگر ہم پالیسی بدلیں گے تو اس صفحے پر نئی تاریخ کے ساتھ اپڈیٹ کریں گے۔</p>
+    <p class="en">If we change this policy, we will update this page with a new date.</p>
+  </div>
+
+  <div class="card">
+    <h2>رابطہ / Contact</h2>
+    <p class="ur">سوالات کے لیے رابطہ کریں:</p>
+    <p class="en">Questions? Contact us: <a href="mailto:hassan.awan70480@gmail.com">hassan.awan70480@gmail.com</a></p>
+  </div>
 </div>
 </body>
 </html>
